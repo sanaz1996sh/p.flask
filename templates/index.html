@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه ما</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #e684ba;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .special-offers {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #e245a1;
+            border-radius: 5px;
+            width: 30%;
+        }
+
+        .product img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+        }
+
+        .about-us, .contact-us {
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        .about-us, .contact-us h2 {
+            color: #333;
+        }
+
+        footer {
+            background-color: #d3b3c8; 
+            color: #0f0f0f; 
+            padding: 10px;
+            text-align:center;
+        }
+    </style>
+</head>
+
+<body dir="rtl">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">صفحه ی اصلی</a></li>
+                <li><a href="/about">درباره ما</a></li>
+                <li><a href="/contact">تماس با ما</a></li>
+            </ul>
+        </nav>
+        <h1 style="text-align: center;">فروشگاه دهکده شادی</h1>
+    </header>
+
+    <section class="special-offers">
+        <div class="product">
+            
+            <h3> {{product.name1}}</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ab dolorum numquam quidem. Reprehenderit adipisci magni dignissimos necessitatibus laborum beatae, consectetur tempore excepturi ullam ab tempora inventore porro vel delectus!</p>
+        </div>
+
+        <div class="product">
+            
+            <h3> {{product.name2}}</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, dolor! Corrupti exercitationem quasi illo quis aliquid voluptatibus in qui excepturi perferendis assumenda cum, dignissimos voluptate, odit quibusdam saepe. Earum, voluptatibus.</p>
+        </div>
+
+        <div class="product">
+            
+            <h3> {{product.name3}}</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit maiores esse vel in error iste repellat mollitia pariatur molestiae possimus sunt cupiditate velit accusantium eius officiis quam, iure rem aliquam.</p>
+        </div>
+    </section>
+
+    <section class="about-us">
+        
+    </section>
+
+    <section class="contact-us">
+        <h1>
+            دهکده شادی
+        </h1>
+        <p>فروشگاه ما در بازار بزرگ میلاد می باشد و انواع لازم عقد و عروسی را دارا می باشد</p>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2023 فروشگاه ما. تمامی حقوق محفوظ است.</p>
+    </footer>
+</body>
+</html>
